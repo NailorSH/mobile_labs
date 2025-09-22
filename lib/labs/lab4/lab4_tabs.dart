@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:lab4/model/lab.dart';
 import 'demo.dart';
+import 'variant.dart';
 
 class Lab4TabsScreen extends StatelessWidget {
   final Lab lab;
@@ -27,7 +28,7 @@ class Lab4TabsScreen extends StatelessWidget {
           case 0:
             return const Lab4DemoScreen();
           case 1:
-            return const Lab4DemoScreen(); // variant = demo copy
+            return const Lab4VariantScreen();
           default:
             return const Lab4DemoScreen();
         }
